@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    margin:50px auto auto 100px;
+    width: 80vw;
+    height: 30vh;
+    border-collapse: collapse;
+}
+
+table th  {
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+table tr:nth-last-of-type(even) {
+    background-color: lightgray;
+}
+tfoot {
+    background-color: lightgray;
+}
+table td {
+    text-align: left;
+}
+table td:nth-child(3n)      {
+    text-align: right;
+}
